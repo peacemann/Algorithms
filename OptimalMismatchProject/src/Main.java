@@ -57,7 +57,7 @@ public class Main{
         final long duration = (System.nanoTime() - begin);
         final double seconds = ((double)duration / 1000000000);
 
-        System.out.println("\n\n" + "Optimal Mismatch Solution Time : " + new DecimalFormat("#.#######").format(seconds) + " Seconds");
+        System.out.println("\n\n" + "Gecen Sure : " + new DecimalFormat("#.#######").format(seconds) + " Saniye");
 
 
 
@@ -65,7 +65,7 @@ public class Main{
     }
 
     public static void showResult(List<Integer> result,int j, String needle){
-        System.out.println("'" + needle + "'" + " Found Positions:".concat(result.toString()));
+        System.out.println("'" + needle + "'" + " Su indekslerde bulundu:".concat(result.toString()));
 
     }
 

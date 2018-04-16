@@ -36,7 +36,7 @@ public class BruteForce {
 
             String needle=myScanner.nextLine();
 
-            System.out.print("\n\n " + "'" + needle + "'" + " Pattern found at index : ");
+            System.out.print("\n\n " + "'" + needle + "'" + " Su indekslerde bulundu : ");
 
             findString(article,needle);
 
@@ -46,7 +46,7 @@ public class BruteForce {
         final long duration = (System.nanoTime() - begin);
         final double seconds = ((double)duration / 1000000000);
 
-        System.out.println("\n\n" + "Brute Force Match Solution Time : " + new DecimalFormat("#.#######").format(seconds) + " Seconds");
+        System.out.println("\n\n" + "Gecen Sure : " + new DecimalFormat("#.#######").format(seconds) + " Saniye");
 
 
     }
